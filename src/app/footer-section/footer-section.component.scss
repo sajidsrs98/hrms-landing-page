@@ -1,0 +1,111 @@
+.fBody {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a2e;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.left {
+    width: 45%;
+}
+
+.left h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.left p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.left .quote {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.left .footer {
+    margin-top: 40px;
+}
+
+.left .footer p {
+    margin-bottom: 10px;
+}
+
+.left .footer input {
+    padding: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.left .footer button {
+    padding: 10px 20px;
+    background-color: #00b894;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.right {
+    width: 45%;
+    background-color: #2d2d44;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.right h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.right form {
+    display: flex;
+    flex-direction: column;
+}
+
+.right form input,
+.right form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.right form button {
+    padding: 10px;
+    background-color: #00b894;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    padding: 20px 0 20px 0;
+    /* background-color: #0f0f1b; */
+}
+
+.footer-bottom a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
